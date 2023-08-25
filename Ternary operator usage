@@ -1,0 +1,12 @@
+#include <iostream>
+#inlcude <string>
+using namespace std;
+
+int main(){
+  int age;
+  cout<<"Enter your age: ";
+  cin>>age;
+  string status=(age>=18)? "adult" : "not an adult";
+  cout<<"You are an "<< status;
+  return 0;
+}
